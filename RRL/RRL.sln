@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RRL_Motors", "RRL_Motors\RRL_Motors.vcxproj", "{991BE005-BA2B-4566-9C3F-EF33795A6DAC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RRL_Bluetooth", "RRL_Bluetooth\RRL_Bluetooth.vcxproj", "{EEF45F2C-C4C9-49FF-B3E1-7F67CFF86669}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RRL_Horn", "RRL_Horn\RRL_Horn.vcxproj", "{2B9C9FE8-B852-4579-AC46-174A556CC67B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RRL_Joystick", "RRL_Joystick\RRL_Joystick.vcxproj", "{9A8C9F77-AEEF-45C7-B93E-377849029272}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CommonLib", "CommonLib\CommonLib.vcxproj", "{3FF13114-F259-46B5-A1A1-B0AD8919D7E2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RRLCarController", "RRLCarController\RRLCarController.vcxproj", "{D1868954-E38D-4EFB-A818-5C906EA5195A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{38D2EEF5-316C-4BD9-B64C-08C5F79C4E97}"
+	ProjectSection(SolutionItems) = preProject
+		ExportToArduinoLibrary.bat = ExportToArduinoLibrary.bat
+		TODO.txt = TODO.txt
+		VERSIONS.txt = VERSIONS.txt
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RRL_Marquee", "RRL_Marquee\RRL_Marquee.vcxproj", "{8A12466A-99A8-4706-A7C5-0FC345D5383F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RRLCar_Able", "RRLCar_Able\RRLCar_Able.vcxproj", "{DF4460E5-7822-4E91-83ED-F1DD03714479}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RRLCar_Bekir", "RRLCar_Bekir\RRLCar_Bekir.vcxproj", "{7F45C1A5-5EC5-4A63-BFA4-8CE3CB2B55B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{991BE005-BA2B-4566-9C3F-EF33795A6DAC}.Debug|x86.ActiveCfg = Debug|Win32
+		{991BE005-BA2B-4566-9C3F-EF33795A6DAC}.Debug|x86.Build.0 = Debug|Win32
+		{991BE005-BA2B-4566-9C3F-EF33795A6DAC}.Release|x86.ActiveCfg = Release|Win32
+		{991BE005-BA2B-4566-9C3F-EF33795A6DAC}.Release|x86.Build.0 = Release|Win32
+		{EEF45F2C-C4C9-49FF-B3E1-7F67CFF86669}.Debug|x86.ActiveCfg = Debug|Win32
+		{EEF45F2C-C4C9-49FF-B3E1-7F67CFF86669}.Debug|x86.Build.0 = Debug|Win32
+		{EEF45F2C-C4C9-49FF-B3E1-7F67CFF86669}.Release|x86.ActiveCfg = Release|Win32
+		{EEF45F2C-C4C9-49FF-B3E1-7F67CFF86669}.Release|x86.Build.0 = Release|Win32
+		{2B9C9FE8-B852-4579-AC46-174A556CC67B}.Debug|x86.ActiveCfg = Debug|Win32
+		{2B9C9FE8-B852-4579-AC46-174A556CC67B}.Debug|x86.Build.0 = Debug|Win32
+		{2B9C9FE8-B852-4579-AC46-174A556CC67B}.Release|x86.ActiveCfg = Release|Win32
+		{2B9C9FE8-B852-4579-AC46-174A556CC67B}.Release|x86.Build.0 = Release|Win32
+		{9A8C9F77-AEEF-45C7-B93E-377849029272}.Debug|x86.ActiveCfg = Debug|Win32
+		{9A8C9F77-AEEF-45C7-B93E-377849029272}.Debug|x86.Build.0 = Debug|Win32
+		{9A8C9F77-AEEF-45C7-B93E-377849029272}.Release|x86.ActiveCfg = Release|Win32
+		{9A8C9F77-AEEF-45C7-B93E-377849029272}.Release|x86.Build.0 = Release|Win32
+		{3FF13114-F259-46B5-A1A1-B0AD8919D7E2}.Debug|x86.ActiveCfg = Debug|Win32
+		{3FF13114-F259-46B5-A1A1-B0AD8919D7E2}.Release|x86.ActiveCfg = Release|Win32
+		{3FF13114-F259-46B5-A1A1-B0AD8919D7E2}.Release|x86.Build.0 = Release|Win32
+		{D1868954-E38D-4EFB-A818-5C906EA5195A}.Debug|x86.ActiveCfg = Debug|Win32
+		{D1868954-E38D-4EFB-A818-5C906EA5195A}.Debug|x86.Build.0 = Debug|Win32
+		{D1868954-E38D-4EFB-A818-5C906EA5195A}.Release|x86.ActiveCfg = Release|Win32
+		{D1868954-E38D-4EFB-A818-5C906EA5195A}.Release|x86.Build.0 = Release|Win32
+		{8A12466A-99A8-4706-A7C5-0FC345D5383F}.Debug|x86.ActiveCfg = Debug|Win32
+		{8A12466A-99A8-4706-A7C5-0FC345D5383F}.Debug|x86.Build.0 = Debug|Win32
+		{8A12466A-99A8-4706-A7C5-0FC345D5383F}.Release|x86.ActiveCfg = Release|Win32
+		{8A12466A-99A8-4706-A7C5-0FC345D5383F}.Release|x86.Build.0 = Release|Win32
+		{DF4460E5-7822-4E91-83ED-F1DD03714479}.Debug|x86.ActiveCfg = Debug|Win32
+		{DF4460E5-7822-4E91-83ED-F1DD03714479}.Debug|x86.Build.0 = Debug|Win32
+		{DF4460E5-7822-4E91-83ED-F1DD03714479}.Release|x86.ActiveCfg = Release|Win32
+		{DF4460E5-7822-4E91-83ED-F1DD03714479}.Release|x86.Build.0 = Release|Win32
+		{7F45C1A5-5EC5-4A63-BFA4-8CE3CB2B55B4}.Debug|x86.ActiveCfg = Debug|Win32
+		{7F45C1A5-5EC5-4A63-BFA4-8CE3CB2B55B4}.Debug|x86.Build.0 = Debug|Win32
+		{7F45C1A5-5EC5-4A63-BFA4-8CE3CB2B55B4}.Release|x86.ActiveCfg = Release|Win32
+		{7F45C1A5-5EC5-4A63-BFA4-8CE3CB2B55B4}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
